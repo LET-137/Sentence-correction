@@ -2,4 +2,5 @@
 /todo
 lib/apptest.dart
 lib/secret.dart
-lib/gittest.dart
+lib/gittest.dartgi
+*.pan
