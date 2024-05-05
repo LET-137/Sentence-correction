@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'todo.freezed.dart';
@@ -13,3 +14,5 @@ class ToDo with _$ToDo{
 
   factory ToDo.fromJson(Map<String,dynamic> json) => _$ToDoFromJson(json);
 }
+
+// TextStyle
