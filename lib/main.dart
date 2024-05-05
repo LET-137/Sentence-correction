@@ -27,7 +27,7 @@ class Homescreen extends StatefulWidget {
 class _HomescreenState extends State<Homescreen> {
 
   // final String guri = "guri";
-  final todos = List.generate(5,(index) => Todo(title: "Todo ${index + 1}"),);
+  final todos = List.generate(5,(index) => ToDo(title: "Todo ${index + 1}"),);
 
   @override
   Widget build(BuildContext context){
@@ -51,7 +51,7 @@ class _HomescreenState extends State<Homescreen> {
         child: const Icon(Icons.add),
         onPressed: (){
           setState(() {
-            todos.add(Todo(title: "ToDo ${todos.length + 1}"),);
+            todos.add(ToDo(title: "ToDo ${todos.length + 1}"),);
           });
         },
       ),
